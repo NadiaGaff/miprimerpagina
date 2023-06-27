@@ -61,6 +61,13 @@ p{
   .button-menu-toggle {
     display: none;
   }
+  .img{
+    height: 200xp;
+  }
+  .greeting{
+    text-align: center;
+
+  }
 
   @media (max-width: 768px) {
     .column {
