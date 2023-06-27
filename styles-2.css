@@ -1,0 +1,39 @@
+header{
+    background: color hsl(155, 75%, 63%);
+    color:#e71616;
+    text-align: center;
+    padding: 20px;
+
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  nav a {
+    color: hsl(318, 93%, 71%);
+    text-decoration: none;
+    padding: 5px;
+  }
+  nav a:hover {
+    color: #1BF7DE;
+  }
+  @media(max-width:767xp) {
+    nav{
+        font-size: 16px;
+    }
+    
+  }
+
+  @media(min-width:1200xp) {
+    header{
+        width: 1200px;
+    }
+    
+  }
